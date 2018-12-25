@@ -1,4 +1,4 @@
-version: "3"
+version: "2"
 services:
 
   oj-redis:
@@ -61,5 +61,4 @@ services:
       # - FORCE_HTTPS=1
       # - STATIC_CDN_HOST=cdn.oj.com
     ports:
-      - "0.0.0.0:80:8000"
-      - "0.0.0.0:443:1443"
+      - "0.0.0.0:88:8000"
