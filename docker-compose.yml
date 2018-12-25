@@ -44,7 +44,7 @@ services:
       # - judger_debug=1
   
   oj-backend:
-    image: zhaofengshu33/oj_backend_dev
+    image: zhaofengshu33/oj_backend_dev:v0
     container_name: oj_backend_dev
     restart: always
     depends_on:
